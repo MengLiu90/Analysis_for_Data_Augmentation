@@ -41,7 +41,7 @@ for thr in mcc_threshold:
 random_thr = np.arange(0, 0.95, 0.1)
 frac_positives = []
 for thr in random_thr:
-    higher = df[df['random_number'] >= thr]
+    higher = df[df['random_similarity'] >= thr]
     Higher_cnt = dict(Counter(higher['Kendall_class']))
     frac_positive = Higher_cnt[1.0] / (Higher_cnt[1.0] + Higher_cnt[-1.0])
     frac_positives.append(frac_positive)
