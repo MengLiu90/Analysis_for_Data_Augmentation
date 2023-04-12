@@ -21,3 +21,5 @@ Run ```python Fig3_Heatmap_Plot.py```<br />
 Optimal DACS threshold for data augmentation<br />
 Run ```Fig4_Analysis_Intersection.m```
 ### Generation of Figure 5
+Distribution plots of the synergy scores in original and augmented datasets<br />
+Run ```Fig5_Histograms.py```
