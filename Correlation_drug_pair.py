@@ -44,7 +44,7 @@ for i in range(len(df_tc_mcc)):#len(df_tc_mcc)
             dr2_cal = pd.concat([dr2_cal, dr2_inter])
 
         df_tc_mcc.at[i, 'Kendall'] = scipy.stats.kendalltau(dr1_cal.logIC50, dr2_cal.logIC50)[0]
-df_tc_mcc.to_csv('Correlation.csv', index=False)
+df_tc_mcc.to_csv('Data/Correlation.csv', index=False)
 # print('# of pairs with NO cell in common', cnt_0)
 # print('# of pairs with one cell in common', cnt_1)
 # print('# of pairs with at least 2 cells in common', cnt_more)
