@@ -5,7 +5,7 @@ from PIL import Image
 from io import BytesIO
 from matplotlib.lines import Line2D
 df = pd.read_csv('C:/Users/mengm/PycharmProjects/pythonProject1/Data/ClassicalML/new_augmented_data_processed/augmented_data_filtered_add_middle.csv')
-df_org = pd.read_csv('Original_synergy_data.csv')
+df_org = pd.read_csv('Data/Original_synergy_data.csv')
 synergy_aug = df.SYNERGY_SCORE
 synergy_org = df_org.SYNERGY_SCORE
 
