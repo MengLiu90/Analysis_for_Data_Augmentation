@@ -17,3 +17,7 @@ Run ```python Fig2_Analysis_Thresholds.py```<br />
 ### Generation of Figure 3 
 Heatmap of the fraction of drug pairs with positively correlated pharmacological effects<br />
 Run ```python Fig3_Heatmap_Plot.py```<br />
+### Generation of Figure 4
+Optimal DACS threshold for data augmentation
+Run ```Analysis_intersection.m```<br />
+### Generation of Figure 5
