@@ -19,5 +19,5 @@ Heatmap of the fraction of drug pairs with positively correlated pharmacological
 Run ```python Fig3_Heatmap_Plot.py```<br />
 ### Generation of Figure 4
 Optimal DACS threshold for data augmentation<br />
-Run ```Analysis_intersection.m```
+Run ```Analysis_Intersection_Plot.m```
 ### Generation of Figure 5
