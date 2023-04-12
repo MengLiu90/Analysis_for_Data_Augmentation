@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 import scipy.stats
 
-df_ic50 = pd.read_csv('IC50Values.csv')
-df_tc_mcc = pd.read_csv('TC_MCC_for_drugpairs.csv')
+df_ic50 = pd.read_csv('Data/IC50Values.csv')
+df_tc_mcc = pd.read_csv('Data/TC_MCC_for_drugpairs.csv')
 
 df_tc_mcc["Kendall"] = np.nan
 #The Spearman’s rho and Kendall’s tau-b statistics
