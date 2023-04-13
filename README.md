@@ -3,6 +3,10 @@ This repository provides the analysis process for the synergy data augmentation.
 ## Dependencies
 1. Pandas 1.1.3
 2. Numpy 1.19.2
+3. Scipy 1.7.3
+4. Matplotlib 3.5.1
+5. Seaborn 0.11.2
+6. PIL 9.0.1
 ## Usage
 The following steps provide a guide to reproduce the analysis results presented in the paper.
 ### Generation of Figure 1 
