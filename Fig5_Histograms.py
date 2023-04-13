@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 from io import BytesIO
 from matplotlib.lines import Line2D
+
 df = pd.read_csv('Data/AugmentedData.csv')
 df_org = pd.read_csv('Data/Original_synergy_data.csv')
 synergy_aug = df.Synergy_Score
