@@ -37,7 +37,7 @@ if __name__=="__main__":
 	pair_drugs = ["CIDs06442177", "CIDs00004261", "CIDs00148177", "CIDs24856436", "CIDs05311497", "CIDs25227436"]
 	names = {"CIDs11597571":"Crizotinib", "CIDs06442177":"Everolimus", "CIDs00004261":"Entinostat", "CIDs00148177":"Perifosine", "CIDs24856436":"Adavosertib", "CIDs05311497":"Vinorelbine", "CIDs25227436":"Capivasertib"}
 
-	ic50 = pd.read_csv("IC50Values.csv")
+	ic50 = pd.read_csv("Data/IC50Values.csv")
 	markers = {"breast":"o", "lung":"P"}
 	colors = {"BT474": "b", "CAMA1": "g", "HCC1500":"r", "MCF7":"c", "MDAMB361":"m", "T47D":"y", "UACC812":"tab:orange", "HCC1419":"tab:purple", "MDAMB175VII":"sienna", "NCIH1703":"saddlebrown", "NCIH520":"darkgoldenrod", "NCIH1299":"gold", "NCIH1793":"olive", "NCIH1975":"darkslategray", "NCIH2085":"deepskyblue", "NCIH2170":"deeppink", "NCIH2228":"cornflowerblue", "NCIH2291":"slategray", "NCIH23":"k", "NCIH358":"midnightblue", "CALU6":"purple", "NCIH838":"lightpink"}
 	annotation = ['(a)', '(b)', '(c)', '(d)', '(e)', '(f)']
@@ -58,4 +58,4 @@ if __name__=="__main__":
 			axes[i].set_ylabel("$"+names[drug].lower()+", pIC_{50}$", fontsize=10,labelpad=0.3)
 			axes[i].annotate(annotation[i], xy=(-0.3,1.05), fontsize=10, xycoords="axes fraction")
 	fig.tight_layout()	
-	plt.savefig("Fig1.png", dpi=300, bbox_inches="tight")
+	plt.savefig("Figure/Fig1.png", dpi=300, bbox_inches="tight")
