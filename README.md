@@ -19,7 +19,9 @@ Heatmap of the fraction of drug pairs with positively correlated pharmacological
 Run ```python Fig3_Heatmap_Plot.py```<br />
 ### Generation of Figure 4
 Optimal DACS threshold for data augmentation<br />
-Run ```Fig4_Analysis_Intersection.m```
+1. Download the dataset ```DACS_score_between_original_drug_and_similar_drugs.csv``` from the link https://osf.io/kd9e7/ and put the dataset in ```Data``` folder<br />
+2. Run ```Pre_process_for_the_plot.py```<br />
+3. Run ```Fig4_Analysis_Intersection.m```
 ### Generation of Figure 5
 Distribution plots of the synergy scores in original and augmented datasets<br />
 Run ```Fig5_Histograms.py```
