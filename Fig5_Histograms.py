@@ -59,12 +59,12 @@ custom_lines = [Line2D([0,1],[0,1], linestyle='-', color='b', linewidth=1.5),
 plt.legend(custom_lines, ['Augmented data', 'Original data'], fontsize=12)
 plt.tick_params(axis='both', which='major', labelsize=12)
 # # plt.savefig('Figure/synergy_distribution_3.png', bbox_inches='tight')
-plt.savefig('Figure/synergy_distribution_step_histogram.png')
+# plt.savefig('Figure/synergy_distribution_step_histogram.png')
 plt.show()
 
 png1 = BytesIO()
 fig.savefig(png1, format='png')
 png2 = Image.open(png1)
-png2.save('Figure/step_histogram.tiff')
+png2.save('Figure/Figure5.tiff')
 png1.close()
 
