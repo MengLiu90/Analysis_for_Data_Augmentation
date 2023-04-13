@@ -13,9 +13,9 @@ The following steps provide a guide to reproduce the analysis results presented 
 Similarity measure for cellular responses to drug treatment<br />
 1. Run ```python Correlation_drug_pair.py```<br />
 This will calculate the Kendall tau correlation coefficients for the drug pairs.
-2. Run ```python make_pic50_scatter.py```<br />
-3. Run ```python legend.py```<br />
-4. Run ```python concat_figures.py```<br />
+2. Run ```python Make_pic50_scatter.py```<br />
+3. Run ```python Legend.py```<br />
+4. Run ```python Concat_figures.py```<br />
 ### Generation of Figure 2 
 Relation between drug similarity and pharmacological effects<br />
 Run ```python Fig2_Analysis_Thresholds.py```<br />
