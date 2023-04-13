@@ -24,4 +24,5 @@ Optimal DACS threshold for data augmentation<br />
 3. Run ```Fig4_Analysis_Intersection.m``` in MATLAB
 ### Generation of Figure 5
 Distribution plots of the synergy scores in original and augmented datasets<br />
-Run ```Fig5_Histograms.py```
+1. Download the dataset ```AugmentedData.csv``` from link https://osf.io/kd9e7/ and put the dataset in ```Data``` folder<br />
+2. Run ```Fig5_Histograms.py```
