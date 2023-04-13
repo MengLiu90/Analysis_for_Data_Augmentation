@@ -2,8 +2,8 @@
 #Date: April, 13 2023 
 
 from PIL import Image, ImageDraw
-image1 = Image.open("Fig1.png")
-image2 = Image.open("Legend.png")
+image1 = Image.open("Figure/Fig1.png")
+image2 = Image.open("Figure/Legend.png")
 
 # Get the width and height of the images
 width1, height1 = image1.size
@@ -23,4 +23,4 @@ draw = ImageDraw.Draw(new_image)
 draw.line((0, height1, new_width, height1), fill=(255, 255, 255, 255), width=1)
 
 # Save the new image
-new_image.save('Figure1.png')
+new_image.save('Figure/Figure1.png')
