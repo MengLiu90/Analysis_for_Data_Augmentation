@@ -35,5 +35,5 @@ plt.axis('off')
 ax11 = fig.add_subplot(spec[0, :])
 ax11.legend(title='Breast cancer cell-lines', handles=legend_breast, numpoints=1, ncol=6,frameon=False, fontsize=10,loc='lower left',labelspacing=1.0,bbox_transform=fig.transFigure)
 plt.axis('off')
-plt.savefig("Legend.png", dpi=300, bbox_inches="tight")
+plt.savefig("Figure/Legend.png", dpi=300, bbox_inches="tight")
 
